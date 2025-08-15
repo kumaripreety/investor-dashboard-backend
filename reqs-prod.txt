@@ -1,0 +1,13 @@
+# Core Framework - Essentials
+fastapi
+uvicorn[standard]
+pydantic-settings
+pydantic[email]
+python-multipart
+
+# Databases - Essentials
+motor
+
+# External APIs Calling
+# httpx # For async API call
+# requests # For sync API call

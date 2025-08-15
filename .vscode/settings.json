@@ -1,0 +1,41 @@
+{
+    // Auto Save
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 1000,
+    // File Cleanup
+    "files.trimTrailingWhitespace": true,
+    "files.insertFinalNewline": true,
+    "files.exclude": {
+        "**/__pycache__": true
+    },
+    // Python Settings
+    "python.languageServer": "Pylance",
+    "python.analysis.typeCheckingMode": "standard",
+    "python.analysis.diagnosticMode": "workspace",
+    "python.analysis.autoImportCompletions": false,
+    // Formatting
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": "explicit",
+        "source.fixAll": "explicit",
+        "source.fixAll.pylint": "always"
+    },
+    // Python Specific Formatting
+    "[python]": {
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "ms-python.black-formatter"
+    },
+    // JSON Settings
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    // isort
+    "isort.args": [
+        "--profile",
+        "black"
+    ],
+    // UI/UX Enhancements
+    "better-comments.multilineComments": true,
+    "workbench.startupEditor": "readme",
+    "extensions.ignoreRecommendations": false
+}

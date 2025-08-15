@@ -1,0 +1,88 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Virtual environments
+venv/
+.venv/
+.new_venv/
+env/
+.env/
+ENV/
+env.bak/
+*.env
+*.env.*
+
+# Pipenv specific
+Pipfile.lock
+
+# Poetry specific
+poetry.lock
+
+# Pyre type checker
+.pyre/
+
+# Mypy type checker
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# FastAPI specific (if applicable)
+instance/
+# If you're using FastAPI's SQLAlchemy
+*.sqlite3
+
+# Pytest cache
+.pytest_cache/
+.coverage
+.cache/
+
+# Logs
+*.log
+
+# Pylint / Pyre / Bandit
+.pylint.d/
+.pytype/
+
+# Docker
+docker-compose.yml
+Dockerfile
+*.dockerignore
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Cython debug symbols
+cython_debug/
+
+# macOS
+**/.DS_Store
+
+# Windows
+Thumbs.db
+
+# Test and temporary data
+test_data/
+
+# Test files
+**/test*
+
+# MongoDB files (if applicable)
+*.bak
+*.bson
+*.gz
+
+# IDE / Editor-specific files
+.idea/
+
+# Python profiling files
+*.prof
+*.trace
+
+docs/
+

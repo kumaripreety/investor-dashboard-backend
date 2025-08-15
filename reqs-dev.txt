@@ -1,0 +1,16 @@
+# Include all from reqs.txt
+-r reqs-prod.txt
+
+# Code Quality - Essential for development
+black
+isort
+autoflake
+pylint
+
+
+# Testing (Uncomment while writing test)
+# pytest
+# pytest-asyncio
+# pytest-cov
+
+# locust # Load Testing
